@@ -1,0 +1,24 @@
+.icons-container {
+    width: fit-content;
+    height: auto;
+    background-color: #15181E;
+    padding: 1rem;
+    border-radius: 0.3rem;  
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #46835D;
+}
+
+/* .icon:hover {
+  font-size: 1.6rem;
+} */

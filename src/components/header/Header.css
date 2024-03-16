@@ -1,0 +1,72 @@
+.header {
+     /* height: 400px; */
+    min-width: 300px; 
+    width: 50%;
+    padding: 1rem;
+  }
+  
+  .nav-items {
+   display: flex;
+   gap: 1.2rem;
+   justify-content: center;
+   align-items: center;
+   font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+  }
+  
+  .nav-items li {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-items li a {
+    width: 22rem;
+    padding: 0.8rem  0.5rem;
+    background-color: rgb(21, 24, 30);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  
+  .logo-box {
+    width: 13rem !important;
+  }
+  
+  .nav-items li a {
+   font-size: 1.1rem;
+   color: rgb(70, 131, 93);
+  }
+  
+  .nav-items li a:hover {
+   color: rgb(21, 24, 30);
+   background-color: rgb(70, 131, 93);
+  }
+  
+  .logo {
+    font-family: "Rubik Glitch Pop", system-ui;
+    font-weight: 400;
+  
+  }
+  
+  /* =======INTRO SECTION */
+  .intro-section {
+    width: 100%;
+    height: auto;
+    background-color: #46835D;
+    margin-top: 3rem;
+    border-radius: 0.2rem;
+    padding: 0.8rem  1rem;
+    color: rgb(21, 24, 30);
+  }
+  
+  .intro-section h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .intro-section p {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  
